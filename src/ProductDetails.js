@@ -17,11 +17,12 @@ const ProductDetail = () => {
                         <Card.Text>{product.description}</Card.Text>
                     </Card.Body>
                 </Card>
+                <div>
+                    {/* matter <p>kk</p> */}
+                </div>
             </div>
         );
     }
-
     return <p>No Product Found!</p>;
 };
-
 export default ProductDetail;

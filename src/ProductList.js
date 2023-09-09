@@ -8,6 +8,7 @@ const Products = [
         id: 1,
         image: require('./one.jpg'),
         title: 'Iqoo',
+        landingbio:'8bg 128gb',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!'
     },
     {
