@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import About from './About';
-import Products from './Products';
+import ProductList from './ProductList';
 
 function AppHeader() {
   return (
@@ -12,7 +12,7 @@ function AppHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr">
-          <Nav.Link href="/Products">Products</Nav.Link>
+          <Nav.Link href="/Product">Products</Nav.Link>
             <Nav.Link href="/About">About</Nav.Link>
             <Nav.Link href="Login">Login</Nav.Link>
             <Nav.Link href="Register">Register</Nav.Link>
